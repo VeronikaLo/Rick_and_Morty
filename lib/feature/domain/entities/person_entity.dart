@@ -35,7 +35,7 @@ class PersonEntity extends Equatable{
 
 class LocationEntity{
   final String name;
-  final String utl;
+  final String url;
 
-  const LocationEntity({required this.name, required this.utl});
+  const LocationEntity({required this.name, required this.url});
 }
