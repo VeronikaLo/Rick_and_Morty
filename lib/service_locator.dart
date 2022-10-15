@@ -15,7 +15,7 @@ import 'feature/presentation/bloc/search_bloc/search_bloc.dart';
  
  
  
-final sl = GetIt.instance;
+final GetIt sl = GetIt.instance;
 
 Future<void> init() async {
   // BLoC / Cubit
